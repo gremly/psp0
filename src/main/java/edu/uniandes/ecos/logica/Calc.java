@@ -51,7 +51,7 @@ public class Calc {
 			divisor += Math.pow((num - media), 2);
 		}
 		
-		desviacion = Math.sqrt(divisor / this.data.size() -1 ); 
+		desviacion = Math.sqrt(divisor / (this.data.size() -1) ); 
 		return desviacion;
 	}
 }
